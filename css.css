@@ -1,0 +1,50 @@
+/* menor de 400px */
+@media (max-width: 400px) {
+    body {
+      font-family: Calibri, sans-serif;
+      font-size: 6pt;
+      color: red;
+      background-image: url('imagen1.jpg');
+    }
+  }
+  
+  /*400px y 800px */
+  @media (min-width: 401px) and (max-width: 800px) {
+    body {
+      font-family: Cambria, serif;
+      font-size: 8pt;
+      color: blue;
+      background-image: url('imagen2.jpg');
+    }
+  }
+  
+  /*801px y 1200px */
+  @media (min-width: 801px) and (max-width: 1200px) {
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      font-size: 10pt;
+      color: green;
+      background-image: url('imagen3.jpg');
+    }
+  }
+  
+  /*1201px y 1600px */
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      font-family: 'Times New Roman', serif;
+      font-size: 12pt;
+      color: yellow;
+      background-image: url('imagen4.jpg');
+    }
+  }
+  
+  /*mayor de 1600px */
+  @media (min-width: 1601px) {
+    body {
+      font-family: 'Courier New', monospace;
+      font-size: 14pt;
+      color: orange;
+      background-image: url('imagen5.jpg');
+    }
+  }
+  
